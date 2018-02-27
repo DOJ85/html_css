@@ -1,21 +1,35 @@
-.row {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-header {
-  background: #333333; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #333333, #dd1818); /* Chrome 10-25, Safari 5.1-6 */
-  background-image: linear-gradient(to right, #333333, #dd1818), url(img/yosemite); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
 
+html {
+  font-family: "Lato" Arial, sans-serif;
 }
-.manga-text-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  width: 1140px;
-
+body {
+    background-image: url("../img/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    min-width: 1140px;
+    min-height: 100vh;
+}
+.navbar {
+    text-align: center;
+    background-color: black;
+    list-style: none;
+    padding: 15px 0px;
+}
+.navbar li {
+    color: white
+    display: inline-block;
+    padding: 10px;
+}
+.bouton {
+    text-decoration: none;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    display: inline;
+    color: white;
+    background-color: red;
 }
